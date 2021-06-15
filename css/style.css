@@ -1,0 +1,315 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#contenedor-WP{
+    width: 600px !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 17px !important;
+}
+
+#tutorial{
+    width: 100% !important;
+    font-size: 1.2rem !important;
+    font-family: 'Oswald', sans-serif !important;
+    font-style: normal !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    margin: 0.3em 0 0.8em 0 !important;
+    /*box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.07) !important;*/
+}
+
+.icono-tutorial{
+    width: 15% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    background: rgb(90,85,100) !important;
+}
+
+.mouse-vector{
+    width: 40% !important;
+}
+
+.texto-tutorial{
+    width: 85% !important;
+    font-size: 1em !important;
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    padding: 0.4em !important;
+    background: #E1E1E1 !important;
+    color: rgba(20,20,20,0.7) !important;
+    font-weight: 300 !important;
+}
+
+.texto-tutorial span{
+    font-weight: 600 !important;
+}
+
+#caja-infografia{
+    width: 100% !important;
+    height: 85vh !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    position: relative !important;
+    font-family: 'Oswald', sans-serif !important;
+    font-style: normal !important;
+    font-size: 1rem !important;
+    padding-bottom: 2em !important;
+}
+
+#datos-advertencia{
+    position: absolute !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    font-size: 0.9em !important;
+    font-weight: 300 !important;
+    color: rgba(0,0,0,0.5) !important;
+}
+
+#datos-advertencia span{
+    font-weight: 600 !important;
+}
+
+#Colombia{
+    width: auto !important;
+    height: 100% !important;
+}
+
+.departamento{
+    opacity: 0.8 !important;
+    -webkit-transition: -webkit-transform .1s ease-in !important;
+    transition: -webkit-transform .1s ease-in !important;
+    transition: transform .1s ease-in !important;
+    transition: transform .1s ease-in, -webkit-transform .1s ease-in !important;
+}
+
+.departamento:hover{
+    opacity: 1 !important;
+    -webkit-transform: scale(1.003,1.003) !important;
+    transform: scale(1.003,1.003) !important;
+}
+
+#info{
+    width: auto !important;
+    background: rgba(30,20,40,0.8) !important;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    font-size: 1.4rem !important;
+    min-width: 9em !important;
+    border-radius: 0.2em !important;
+    color: rgba(255,255,255,0.8) !important;
+    pointer-events: none !important;
+    z-index: 100001 !important;
+    display: none;
+}
+
+#flecha-info{
+    position: absolute !important;
+    border-width: 0.6em !important;
+    border-style: solid !important;
+    -webkit-transition: top .2s ease-out !important;
+    transition: top .2s ease-out !important;
+    display: block !important;
+}
+
+.flecha-arbIzq{
+    top: 8% !important;
+    right: 100% !important;
+    border-color: transparent rgba(30,20,40,0.8) transparent transparent !important; 
+}
+
+.flecha-abjIzq{
+    top: 85% !important;
+    right: 100% !important;
+    border-color: transparent rgba(30,20,40,0.8) transparent transparent !important;
+}
+
+.flecha-arbDer{
+    top: 8% !important;
+    left: 100% !important;
+    border-color: transparent transparent transparent rgba(30,20,40,0.8) !important;
+}
+
+.flecha-abjDer{
+    top: 85% !important;
+    left: 100% !important;
+    border-color: transparent transparent transparent rgba(30,20,40,0.8) !important;
+}
+ 
+#encabezado-info{
+    font-size: 1em !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    margin: 0.2em 0 0 5% !important;
+}
+
+#cerrar-info{
+    position: absolute !important;
+    width: 10% !important;
+    right: 0 !important;
+    top: 0 !important;
+    margin: 0.5em 5% 0 0 !important;
+    display: none !important;
+    pointer-events: all !important;
+}
+
+.linea-cerrar{
+    stroke: #fff !important;
+    stroke-linecap: round !important;
+    stroke-width: 2em !important;
+}
+
+.linea-info{
+    width: 89% !important;
+    height: 0.07em !important;
+    background: rgba(255,255,255,0.8) !important;
+    margin-left: 5% !important;
+    border: none !important;
+}
+
+.leyendas-info{
+    font-size: 0.9em !important;
+    margin: 0.3em 5% 0 0 !important;
+    text-align: end !important;
+}
+
+.datos-info{
+    font-size: 1em !important;
+    font-weight: 600 !important;
+    color: rgba(255,255,255,0.9) !important;
+}
+
+#encabezado-grafica{
+    text-transform: uppercase !important;
+    font-size: 0.8em !important;
+    font-weight: 500 !important;
+    margin: 0.4em 0 0 5% !important;
+}
+
+#caja-barras{
+    width: 89%;
+    margin: 0.3em 0 0.3em 5% !important;  
+}
+
+.barra-grafica{
+    height: 0.8em !important;
+    background: #fff !important;
+    position: relative !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    -webkit-transition: width .5s ease-out !important;
+    transition: width .5s ease-out !important;
+    margin-top: 0.3em !important;
+}
+
+.texto-barra-grafica{
+    color: #585b60;
+    position: absolute !important;
+    top: 0;
+    right: 0.5em;
+    font-size: 0.6em !important;
+    font-weight: 900 !important;
+}
+
+.desc-barra-grafica{
+    font-size: 0.62em !important;
+}
+
+#convenciones{
+    position: absolute !important;
+    bottom: 2% !important;
+    left: 2% !important;
+    font-size: 1.1rem !important;
+    min-width: 4.2em !important;
+}
+
+.encabezado-convenciones{
+    font-size: 0.9em !important;
+    padding: 0.1em !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    color: rgba(35,10,25,0.7) !important;
+}
+
+.linea-conveciones{
+    width: 100% !important;
+    height: 0.1em !important;
+    background: rgba(35,10,25,0.5) !important;
+    border: none !important;
+}
+
+.caja-degradado{
+    height: 8.4em !important;
+    position: relative !important;
+}
+
+#degradado{
+    width:19% !important;
+    height:100% !important;
+    margin-top: 15% !important;
+    border-radius: 0.7em !important;
+    /*background: linear-gradient(rgb(75,45,55) 0%, rgb(245,215,225) 100%) !important;*/
+    /*border: 0.1em solid rgba(35,10,25,0.5) !important;*/
+}
+
+.texto-degradado{
+    position: absolute !important;
+    left: 35% !important;
+    top: 0% !important;
+}
+
+#degradado-superior{
+    color: rgba(35,10,25,0.8) !important;
+    font-weight: 600 !important;
+}
+
+#degradado-inferior{
+    color: rgba(35,10,25,0.4) !important;
+    top: 82% !important;
+}
+
+
+@media (max-width: 600px){
+    
+    #contenedor-WP{
+        width:100% !important;
+        padding: 0 16px !important;
+        font-size: 17px !important;
+        -webkit-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+    }
+    
+    #info{font-size: 1.55rem !important;}
+    
+    #flecha-info{display: none !important;}
+    
+    #cerrar-info{
+        display: block !important;
+    }    
+    
+}
